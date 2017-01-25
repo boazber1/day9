@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>some form exercise </title>
+</head>
+<body>
+    <form action="/form">
+        Full name: <input type="text" id="name" name="fname" placeholder="enter your name" maxlength="25"><br><br>
+        Password: <input type="password" id="pass" name="password" placeholder="enter password" maxlength="12"><br><br>
+
+
+
+        Country : <select name="country selection" id="country select">
+                    <option value="china" id="china">China</option>
+                    <option value="israel" id="israel">Israel</option>
+                    <option value="usa" id="usa">USA</option>
+                    <option value="spain" id="spain">Spain</option>
+                  </select>
+        <br><br><br>
+
+        <label for="male" name="male label">I am a male</label>
+        <input type="radio" name="gender" id="male" value="male" checked><br>
+        <label for="female" name="female label">I am a female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br><br>
+
+        <fieldset name="animals" style="width: 350px;" >
+            <legend >My Animals:</legend>
+            <input type="checkbox" name="animal" value="Dog">I have a dog<br>
+            <input type="checkbox" name="animal" value="Cat">I have a cat
+
+        </fieldset><br><br><br>
+        <h3 >About me:</h3>
+        <textarea rows="4" cols="50" name="about" placeholder="Describe yourself here...">
+            I'm interested in...
+        </textarea><br><br><br>
+
+
+        <input type="submit" value="Send form" name="submit form" id="sub">
+
+
+
+    </form>
+</body>
+</html>
